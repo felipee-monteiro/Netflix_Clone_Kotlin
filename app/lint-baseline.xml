@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 7.3.1" type="baseline" client="gradle" dependencies="false" name="AGP (7.3.1)" variant="fatal" version="7.3.1">
+
+    <issue
+        id="DuplicateIds"
+        message="Duplicate id `@+id/button_watchhjhj`, already defined earlier in this layout"
+        errorLine1="                                        android:id=&quot;@+id/button_watchhjhj&quot;"
+        errorLine2="                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="491"
+            column="41"/>
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="343"
+            column="41"
+            message="Duplicate id `@+id/button_watchhjhj` originally defined here"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        message="Duplicate id `@+id/button`, already defined earlier in this layout"
+        errorLine1="                                        android:id=&quot;@+id/button&quot;"
+        errorLine2="                                        ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="505"
+            column="41"/>
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="357"
+            column="41"
+            message="Duplicate id `@+id/button` originally defined here"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        message="Duplicate id `@+id/button_watchhh`, already defined earlier in this layout"
+        errorLine1="                                        android:id=&quot;@+id/button_watchhh&quot;"
+        errorLine2="                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="614"
+            column="41"/>
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="282"
+            column="41"
+            message="Duplicate id `@+id/button_watchhh` originally defined here"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        message="Duplicate id `@+id/buttonjdslfksj`, already defined earlier in this layout"
+        errorLine1="                                        android:id=&quot;@+id/buttonjdslfksj&quot;"
+        errorLine2="                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="628"
+            column="41"/>
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="296"
+            column="41"
+            message="Duplicate id `@+id/buttonjdslfksj` originally defined here"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        message="Duplicate id `@+id/buttonjhgj`, already defined earlier in this layout"
+        errorLine1="                                        android:id=&quot;@+id/buttonjhgj&quot;"
+        errorLine2="                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="691"
+            column="41"/>
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="235"
+            column="41"
+            message="Duplicate id `@+id/buttonjhgj` originally defined here"/>
+    </issue>
+
+</issues>
